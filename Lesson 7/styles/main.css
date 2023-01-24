@@ -1,0 +1,505 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Kanit-Light";
+    src: url(../fonts/Kanit-Light.ttf);
+}
+
+@font-face {
+    font-family: "Kanit-Regular";
+    src: url(../fonts/Kanit-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Kanit-Medium";
+    src: url(../fonts/Kanit-Medium.ttf);
+}
+
+header {
+    width: 1440px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+
+.menu {
+    width: 50px;
+    height: 50px;
+    background-image: url(../images/times.svg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    right: 546px;
+    bottom: 12px;
+}
+
+
+.menu-dropdown {
+    display: none;
+    position: absolute;
+    height: 359px;
+    width: 344px;
+    left: 70px;
+    top: 60px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.1);
+    font-family: "Kanit-Medium";
+    padding-top: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 66px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.menu:hover .menu-dropdown {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+.block-1 {
+    width: 1440px;
+    height: 570px;
+}
+
+.left-side {
+    width: 720px;
+    height: 570px;
+    background-image: url(../images/philip-martin-5aGUyCW_PJw-unsplash.png);
+    float: left;
+}
+
+.right-side {
+    width: 720px;
+    height: 570px;
+    background-color: black;
+    padding-left: 108px;
+    padding-top: 107px;
+    margin-left: 720px;
+}
+
+.date-1 {
+    width: 136px;
+    height: 21px;
+    font-family: "Kanit-Medium";
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 7px;
+    text-align: left;
+    float: left;
+    margin-top: 3px;
+}
+
+.lifestyle-1 {
+    width: 75px;
+    height: 24px;
+    font-family: "Kanit-Regular";
+    color: #FFFFFF;
+    float: left;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 291px;
+}
+
+.main-text-1 {
+    width: 503px;
+    height: 42px;
+    font-family: "Kanit-Regular";
+    color: #FFFFFF;
+    margin-top: 72px;
+    font-size: 28px;
+    line-height: 42px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.lower-text-1 {
+    width: 503px;
+    height: 42px;
+    font-family: "Kanit-Light";
+    color: #FFFFFF;
+    margin-top: 29px;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button-read-more {
+    width: 198px;
+    height: 55px;
+    font-family: "Kanit-Regular";
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 1px solid #FFFFFF;
+    margin-top: 54px;
+    transition-property: color, background-color;
+    transition-duration: 0.2s;
+}
+
+.button-read-more:hover {
+    color: black;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.block-2 {
+    width: 1440px;
+    height: 1091px;
+    font-family: "Kanit-Medium";
+    margin-top: 59px;
+    padding-left: 149px;
+}
+
+.wrapper-1 {
+    width: 557px;
+    float: left;
+}
+
+.wrapper-2 {
+    width: 557px;
+    float: left;
+    margin-left: 28px;
+}
+
+.featured-1 {
+    margin-left: 1px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.pic-1 {
+    width: 557px;
+    height: 368px;
+    background-image: url(../images/Screen\ Shot\ 2560-08-18\ at\ 4.23.48\ PM.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.pic-2 {
+    width: 557px;
+    height: 368px;
+    background-image: url(../images/biocarbon-drone.jpg.650x0_q70_crop-smart.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.date-2 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 6px;
+    text-align: left;
+    margin-top: 26px;
+    float: left;
+}
+
+.lifestyle-2 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0px;
+    margin-top: 28px;
+    margin-left: 499px;
+}
+
+.main-text-2 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 31px;
+}
+
+.second-text-1 {
+    font-family: "Kanit-Light";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 19px;
+}
+
+.wrapper-3 {
+    width: 363px;
+    float: left;
+    margin-top: 63px;
+    margin-right: 27px;
+}
+
+.pic-3 {
+    width: 363px;
+    height: 240px;
+    background-image: url(../images/img-1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.pic-4 {
+    width: 363px;
+    height: 240px;
+    background-image: url(../images/img-2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.pic-5 {
+    width: 363px;
+    height: 240px;
+    background-image: url(../images/img-3.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.date-3 {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 6px;
+    text-align: left;
+    margin-top: 18px;
+    float: left;
+}
+
+.lifestyle-3 {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: right;
+    margin-top: 18px;
+}
+
+.main-text-3 {
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 22px;
+    text-transform: uppercase;
+}
+
+.see-all-button {
+    width: 238px;
+    height: 42px;
+    background-color: #303030;
+    font-family: "Kanit-Medium";
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-left: 601px;
+    transition-property: color, background-color;
+    transition-duration: 0.2s;
+}
+
+.see-all-button:hover {
+    background-color: #FFFFFF;
+    color: #303030;
+    border: 2px solid #303030;
+    cursor: pointer;
+}
+
+.block-3 {
+    width: 1440px;
+    margin-top: 71px;
+    margin-bottom: 64px;
+}
+
+.pic-6 {
+    width: 571.5px;
+    height: 360px;
+    background-image: url(../images/photo-1520781359717-3eb98461c9fe.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 148px;
+    float: left;
+}
+
+.text-block {
+    width: 571.5px;
+    height: 360px;
+    background-color: black;
+    font-family: "Kanit-Medium";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-text-4 {
+    width: 316px;
+    height: 51px;
+    font-size: 34px;
+    line-height: 51px;
+    color: #FFFFFF;
+    margin-left: 128px;
+    margin-bottom: 20px;
+}
+
+.sub-now-button {
+    width: 198px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    font-size: 14px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    margin-left: 186px;
+    transition-property: color, background-color;
+    transition-duration: 0.2s;
+}
+
+.sub-now-button:hover {
+    background-color: #FFFFFF;
+    color: black;
+    cursor: pointer;
+}
+
+.block-4 {
+    width: 1440px;
+    font-family: "Kanit-Medium";
+    padding-left: 148px;
+}
+
+.pic-7 {
+    width: 363px;
+    height: 240px;
+    background-image: url(../images/img-5.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.pic-8 {
+    width: 363px;
+    height: 240px;
+    background-image: url(../images/img-6.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.pic-9 {
+    width: 363px;
+    height: 240px;
+    background-image: url(../images/img-7.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper-4 {
+    width: 363px;
+    float: left;
+    margin-top: 31px;
+    margin-right: 27px;
+}
+
+.pic-10 {
+    width: 363px;
+    height: 240px;
+    background-image: url(../images/10.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.pic-11 {
+    width: 363px;
+    height: 240px;
+    background-image: url(../images/11.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.pic-12 {
+    width: 363px;
+    height: 240px;
+    background-image: url(../images/12.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.button-2 {
+    margin-top: 38px;
+}
+
+.block-5 {
+    width: 1440px;
+    font-family: "Kanit-Medium";
+    padding-left: 148px;
+    float: left;
+}
+
+.news {
+    margin-top: 33px;
+}
+
+footer {
+    width: 1440px;
+    height: 120px;
+    background-color: black;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    font-family: "Kanit-Light";
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.footer-img {
+    width: 142px;
+    height: 27px;
+    margin-top: 50px;
+    margin-bottom: 18px;
+    float: left;
+    margin-left: 649px;
+}
+
+footer>p {
+    margin-left: 672px;
+}
